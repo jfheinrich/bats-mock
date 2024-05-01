@@ -19,7 +19,8 @@
   "main": "stub.bash",
   "files": [
     "binstub",
-    "stub.bash"
+    "stub.bash",
+    "load.bash"
   ],
   "peerDependencies": {
     "bats": "^1.9.0"
