@@ -21,7 +21,7 @@
     "stub.bash"
   ],
   "peerDependencies": {
-    "bats": "^0.4.2"
+    "bats": "^1.9.0"
   },
   "license": "MIT",
   "keywords": [
