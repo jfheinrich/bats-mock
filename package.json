@@ -5,23 +5,35 @@
   "author": "Sam Stephenson <sstephenson@gmail.com> (http://sstephenson.us/)",
   "contributors": [
     "Mislav Marohnić <mislav.marohnic@gmail.com> (http://mislav.net)",
-    "Jason Karns <jason@karns.name> (http://jason.karns.name/)"
+    "Jason Karns <jason@karns.name> (http://jason.karns.name/)",
+    "Joerg Heinrich <joerg@jfheinrich.eu> (https:/jfheinrich.eu/)"
   ],
-  "homepage": "https://github.com/jasonkarns/bats-mock#readme",
+  "homepage": "https://github.com/jfheinrich/bats-mock#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonkarns/bats-mock.git"
+    "url": "https://github.com/jfheinrich/bats-mock.git"
   },
   "bugs": {
-    "url": "https://github.com/jasonkarns/bats-mock/issues"
+    "url": "https://github.com/jfheinrich/bats-mock/issues"
   },
   "main": "stub.bash",
   "files": [
     "binstub",
     "stub.bash"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "bats": "^0.4.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "12.0.0",
+    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "10.0.3",
+    "@semantic-release/npm": "12.0.0",
+    "@semantic-release/release-notes-generator": "13.0.0",
+    "semantic-release": "23.0.7",
+    "conventional-changelog-conventionalcommits": "7.0.2"
   },
   "license": "MIT",
   "keywords": [
