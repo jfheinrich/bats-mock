@@ -1,3 +1,10 @@
+## [1.1.0-rc.2](https://github.com/jfheinrich/bats-mock/compare/v1.1.0-rc.1...v1.1.0-rc.2) (2024-05-01)
+
+
+### Features
+
+* add load.bash ([74918db](https://github.com/jfheinrich/bats-mock/commit/74918dbf3ecb7fcf262addbd370731f9bb0f413d))
+
 ## [1.1.0-rc.1](https://github.com/jfheinrich/bats-mock/compare/v1.0.1...v1.1.0-rc.1) (2024-05-01)
 
 
