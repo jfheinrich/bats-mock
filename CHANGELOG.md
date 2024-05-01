@@ -1,3 +1,10 @@
+## [1.1.0-rc.3](https://github.com/jfheinrich/bats-mock/compare/v1.1.0-rc.2...v1.1.0-rc.3) (2024-05-01)
+
+
+### Features
+
+* addd load.bash to the files array ([316d5cf](https://github.com/jfheinrich/bats-mock/commit/316d5cff6f831ce66d00837bde37902d419ef2a2))
+
 ## [1.1.0-rc.2](https://github.com/jfheinrich/bats-mock/compare/v1.1.0-rc.1...v1.1.0-rc.2) (2024-05-01)
 
 
