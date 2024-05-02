@@ -1,5 +1,7 @@
-# bats-mock
+# jfh-bats-mock
 Mocking/stubbing library for BATS (Bash Automated Testing System)
+
+This is a fork of [bats-mock](https://github.com/jasonkarns/bats-mock).
 
 ## bats-core
 
@@ -7,37 +9,19 @@ There are great things happening in the `bats` ecosystem! Anyone actively using 
 
 ## Installation
 
-Recommended installation is via git submodule. Assuming your project's bats
-tests are in `test`:
-
 ``` sh
-git submodule add https://github.com/jasonkarns/bats-mock test/helpers/mocks
-git commit -am 'added bats-mock module'
+npm install --save-dev jfh-bats-mock
 ```
 
 then in `test/test_helper.bash`:
 
 ``` bash
-load helpers/mocks/stub
-```
-
-(Optionally configure sparse-checkout if you're concerned with all the non-essential files being in your repo)
-
-Also available as an [npm module](https://www.npmjs.com/package/bats-mock) if you're into that sort of thing.
-
-``` sh
-npm install --save-dev bats-mock
-```
-
-then in `test/test_helper.bash`:
-
-``` bash
-load ../node_modules/bats-mock/stub
+bats_load_library 'jfh-bats-mock'
 ```
 
 ## Usage
 
-After loading `bats-mock/stub` you have two new functions defined:
+After loading `jfh-bats-mock` you have two new functions defined:
 
 - `stub`: for creating new stubs, along with a plan with expected args and the results to return when called.
 
@@ -56,7 +40,9 @@ The expected args (and the colon) is optional.
 So, in order to stub `date`, we could use something like this in a test case (where `format_date` is the function under test, relying on data from the `date` command):
 
 ```bash
-load helper
+#!/usr/bin/env bats
+
+load "test_helper"
 
 # this is the "code under test"
 # it would normally be in another file
@@ -106,8 +92,11 @@ If you stub functions, make sure to unset them, or the stub script wan't be call
 
 ## Credits
 
+Contributor and maintainer for this fork: [Joerg Heinrich][jfheinrich]
+
 Extracted from the [ruby-build][] test suite. Many thanks to its author and contributors: [Sam Stephenson][sstephenson] and [Mislav Marohnić][mislav].
 
 [ruby-build]: https://github.com/sstephenson/ruby-build
 [sstephenson]: https://github.com/sstephenson
 [mislav]: https://github.com/mislav
+[jfheinrich]: https://jfheinrich.eu
