@@ -13,6 +13,18 @@
 
 * change Node version to 22.x ([1fcb8fc](https://github.com/jfheinrich/bats-mock/commit/1fcb8fcb744810a21ddc8bd3c862e8de4be4d86f))
 
+## [1.1.0-rc.4](https://github.com/jfheinrich/bats-mock/compare/v1.1.0-rc.3...v1.1.0-rc.4) (2024-05-02)
+
+
+### Features
+
+* configure the automatic deploy with semantic-release ([4ac9f6e](https://github.com/jfheinrich/bats-mock/commit/4ac9f6e30282a803a4bd2b80a684722a799be588))
+
+
+### Bug Fixes
+
+* resolve semantic-release/npm configuration error ([746b974](https://github.com/jfheinrich/bats-mock/commit/746b9743655de26b5fc4b395c7a175901fe39db2))
+
 ## [1.1.0-rc.3](https://github.com/jfheinrich/bats-mock/compare/v1.1.0-rc.2...v1.1.0-rc.3) (2024-05-01)
 
 

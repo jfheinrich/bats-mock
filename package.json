@@ -1,11 +1,10 @@
 {
-  "name": "bats-mock",
-  "version": "1.1.0",
-  "description": "Mocking/stubbing library for BATS (Bash Automated Testing System)",
+  "name": "jfh-bats-mock",
+  "version": "1.1.0-rc.4",
+  "description": "Mocking/stubbing library for BATS (Bash Automated Testing System), it's a fork of bats-mock",
+  "private": false,
   "author": "Sam Stephenson <sstephenson@gmail.com> (http://sstephenson.us/)",
   "contributors": [
-    "Mislav Marohnić <mislav.marohnic@gmail.com> (http://mislav.net)",
-    "Jason Karns <jason@karns.name> (http://jason.karns.name/)",
     "Joerg Heinrich <joerg@jfheinrich.eu> (https:/jfheinrich.eu/)"
   ],
   "homepage": "https://github.com/jfheinrich/bats-mock#readme",
@@ -33,8 +32,8 @@
     "@semantic-release/github": "10.0.3",
     "@semantic-release/npm": "12.0.0",
     "@semantic-release/release-notes-generator": "13.0.0",
-    "semantic-release": "23.0.7",
-    "conventional-changelog-conventionalcommits": "7.0.2"
+    "conventional-changelog-conventionalcommits": "7.0.2",
+    "semantic-release": "^23.0.8"
   },
   "license": "MIT",
   "keywords": [
@@ -45,5 +44,9 @@
     "shell",
     "test",
     "unit"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  }
 }
