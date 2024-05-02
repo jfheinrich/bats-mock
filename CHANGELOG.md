@@ -1,3 +1,15 @@
+## [1.2.0-rc.1](https://github.com/jfheinrich/bats-mock/compare/v1.1.0...v1.2.0-rc.1) (2024-05-02)
+
+
+### Features
+
+* configure the automatic deploy with semantic-release ([4ac9f6e](https://github.com/jfheinrich/bats-mock/commit/4ac9f6e30282a803a4bd2b80a684722a799be588))
+
+
+### Bug Fixes
+
+* resolve semantic-release/npm configuration error ([746b974](https://github.com/jfheinrich/bats-mock/commit/746b9743655de26b5fc4b395c7a175901fe39db2))
+
 ## [1.1.0](https://github.com/jfheinrich/bats-mock/compare/v1.0.1...v1.1.0) (2024-05-01)
 
 
